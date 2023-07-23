@@ -47,7 +47,7 @@ const projects = [
         description: `Node.js, Express.js, uuid, JSON to store notes`,
         image: noteTaker,
         gitHub: "https://github.com/renansm93/Note-Taker",
-        deployed: "https://github.com/renansm93/Note-Taker"
+        deployed: "https://notetakerrenan.herokuapp.com/ "
     },
     {
         name: "Professional-README-Generator",
