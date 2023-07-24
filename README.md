@@ -36,7 +36,7 @@
  ![ProductScreen Shot](./public/assets/home.png)
 
 This is my personal portfolio to showcase my projects.
-<!-- [Click Here to View The Deployed App.](https:///react-portfolio/) -->
+[Click Here to View The Deployed App.](https://renansm93.github.io/React_Portfolio/)
 
 <p align = "right">(<a href="#top">back to top</a>)</>
 
