@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ayacomputer.github.io/react-portfolio/",
+  "homepage": "https://renansm93.github.io/react-portfolio/",
   "dependencies": {
     "@csstools/normalize.css": "^12.0.0",
     "@emotion/react": "^11.9.0",
