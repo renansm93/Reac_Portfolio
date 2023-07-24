@@ -146,7 +146,7 @@ export default function NavBar() {
                             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
                             style={styles.button}
                         >
-                            AYAKO WOOLLAN
+                            RENAN SPILKA MIRANDA
                         </Typography>
                         <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} style={styles.button}>
                             {listItems.map((listItem, i) => (
