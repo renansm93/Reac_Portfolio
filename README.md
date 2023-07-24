@@ -3,7 +3,7 @@
 
 ---
   
-# Rensn Spilka Miranda Portfolio
+# Renan Spilka Miranda Portfolio
 <details>
   
 <summary>Table of Contents</summary>
