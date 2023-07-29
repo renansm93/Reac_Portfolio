@@ -3,6 +3,7 @@ import { Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 import { Typewriter } from 'react-simple-typewriter'
+import { purple } from '@mui/material/colors';
 
 
 export default function Hero() {
@@ -38,7 +39,7 @@ export default function Hero() {
         <header style={styles.header}>
             <h1 style={{ fontFamily: "Nunito" }} xs={{ fontSize: "2rem" }}>Renan Spilka Miranda</h1>
 
-            <h2 style={{ fontFamily: "Comforter" }} xs={{ fontSize: "1.75rem" }}>Full Stack Developer</h2>
+            <h2 style={{ fontFamily: "Lucida Handwriting", fontSize: "5rem", color: "#98FB98"}} xs={{ fontSize: "5rem" }}>Full Stack Developer</h2>
 
 
             <hr></hr>

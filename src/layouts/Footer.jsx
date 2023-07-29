@@ -12,7 +12,8 @@ export default function Footer() {
   const styles = {
     icon: {
       color: "wheat",
-      fontSize: "2rem"
+      padding: "20px",
+      display: "inline",
     },
     container: {
       marginTop: "10vh",
@@ -24,7 +25,8 @@ export default function Footer() {
       color: "wheat",
     },
     footer: {
-      fontSize: "0.75rem",
+      fontSize: "1.5rem",
+      padding: "30px",
     }
   }
   const links = [
@@ -49,9 +51,11 @@ export default function Footer() {
   return (
     <Container style={styles.container}>
       {links.map((link, i) => (
-        <IconButton key={i} color="secondary" href={link.href} size="medium" rel="noreferrer" style={styles.icon}>
-          {link.icon()}
-        </IconButton>
+        <div style={styles.icon}>
+          <IconButton key={i} color="secondary" href={link.href} size="large" rel="noreferrer" className='SvgIcon'>
+            {link.icon()}
+          </IconButton>
+        </div>
       ))
       }
       <div style={styles.footer}>

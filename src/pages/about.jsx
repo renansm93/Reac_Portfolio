@@ -34,10 +34,10 @@ export default function About() {
       <Container>
         <h3>ABOUT</h3>
         <Grid container direction="row" rowSpacing={{ xs: 2, md: 2 }} style={{ backgroundColor: "rgb(24, 24, 24)", borderRadius: "10px" }}>
-          <Grid item xs={12} sm={2} md={3}>
+          <Grid item xs={14} lg={5} sm={14} md={5}>
             <img src={Renan} alt="me" style={{ height: "50vh" }} />
           </Grid>
-          <Grid item container xs={12} sm={10} md={9} style={{ flexShrink: 1, padding: "5rem", placeItems: "center" }}>
+          <Grid item container xs={14} lg={7} sm={14} md={7} style={{ flexShrink: 1, padding: "5rem", placeItems: "center" }}>
             <Grid item style={{ fontSize: "1.75rem", textAlign: "left" }}>
               <p style={{ fontFamily: "Courier", fontWeight: "bold", fontSize: "1.75rem" }}>
                 <Typewriter
