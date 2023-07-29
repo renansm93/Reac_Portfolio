@@ -67,7 +67,6 @@ This is my personal portfolio to showcase my projects.
 
 Distributed under MIT License.
 
-See LICENSE.txt for more information.
 
 <p align ="right">(<a href="#top">back to top</a>)</>
 

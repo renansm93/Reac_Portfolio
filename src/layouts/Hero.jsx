@@ -22,7 +22,7 @@ export default function Hero() {
 
         },
         button: {
-            backgroundColor: "rgba(223, 100, 78, 0.911)",
+            backgroundColor: "rgba(350, 160, 50, 0.950)",
             textColor: "rgb(32, 33, 36)",
             textDecoration: "none",
             borderRadius: "28px",
