@@ -43,10 +43,18 @@ const Contact = () => {
       </div>
       <div >
         <form ref={form} onSubmit={sendEmail}>
+          <div>
           <input type='text' name='name' placeholder='Your Full Name' required />
+          </div>
+          <div>
           <input type='email' name='email' placeholder='Your Email' required />
+          </div>
+          <div>
           <textarea name='message' rows="7" placeholder='Your Message' required />
+          </div>
+          <div>
           <button type='submit' className='btn btn-primary'>Send Message</button>
+          </div>
         </form>
       </div>
     </div>       

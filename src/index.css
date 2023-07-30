@@ -54,6 +54,8 @@ textarea {
   border: 2px solid var(--color-primary-variant);
   resize: none;
   color: black;
+  font-size: 15px;   
+  font-family: "tahoma";
 }
 
 
@@ -65,6 +67,6 @@ textarea {
   font-size: 15px;   
   font-family: "tahoma";
   border: 2px solid var(--color-primary-variant);
-  border-radius: 5px;
+  border-radius: 0.5rem;
   
 }
