@@ -19,6 +19,52 @@ code {
  
 }
 
-.ButtonBase {
-  margin-right: 100px;  
+
+
+ .ButtonBase {
+  background-color: orange;
  }
+ 
+
+
+
+
+
+
+
+
+
+
+/* =================== FORM =================== */
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+ 
+ 
+}
+
+input,
+textarea {  
+  width: 30%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: floralwhite;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: black;
+}
+
+
+.btn-primary {
+  width: 100px;
+  font-weight: bold;
+  color: "rgb(47, 79, 79)";
+  background-color: wheat;
+  font-size: 15px;   
+  font-family: "tahoma";
+  border: 2px solid var(--color-primary-variant);
+  border-radius: 5px;
+  
+}

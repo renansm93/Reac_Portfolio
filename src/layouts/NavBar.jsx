@@ -32,7 +32,7 @@ export default function NavBar() {
         },
         {
             title: "Resume",
-            link: 'https://docs.google.com/document/d/1Ani8MLBCRAnTopjT2KjdDqcZ74t4u51X/edit?usp=sharing&ouid=108320154268428065247&rtpof=true&sd=true',
+            link: "#/Resume",
         },
 
     ];
@@ -96,7 +96,6 @@ export default function NavBar() {
                             component="div"
                             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                             style={styles.logo}
-
                         >
                             Renan Spilka Miranda
                         </Typography>

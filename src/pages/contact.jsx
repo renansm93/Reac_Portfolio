@@ -1,58 +1,33 @@
-import React from 'react'
-import NavBar from '../layouts/NavBar'
-import { Grid, IconButton, Typography, Link } from '@mui/material'
-import { Typewriter } from 'react-simple-typewriter'
-import { Icon } from '@iconify/react';
+import React from 'react';
+import NavBar from '../layouts/NavBar';
+import { Typewriter } from 'react-simple-typewriter';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 
 
-export default function Contact() {
 
-  const styles = {
-    icon: {
-      color: "wheat",
-      fontSize: "10rem",
-      backgroundColor: "rgb(24, 24, 24)",
-      borderRadius: "10px",
-      margin: "0.5rem"
+const Contact = () => {
+  const form = useRef();
 
-    },
-    container: {
-      marginTop: "10vh",
-      textAlign: "center",
-    },
-    link: {
-      underline: "none",
-      textDecoration: "none",
-      color: "wheat",
-    },
-    footer: {
-      fontSize: "0.75rem",
-    }
-  }
-  const links = [
-    {
-      name: 'Email Me',
-      href: `mailto:rs.miranda93@gmail.com`,
-      icon: "ci:mail"
-    },
-    {
-      name: 'Github',
-      href: 'https://github.com/renansm93',
-      icon: "ant-design:github-outlined"
-    },
-    {
-      name: 'LinkedIn',
-      href: 'https://www.linkedin.com/feed/',
-      icon: "bi:linkedin"
-    }
-  ]
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ylxrj1b', 'template_ij0v1t9', form.current, 'Jd9EaEqe6uEqD4kTx')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  };
+   
 
 
   return (
-    <>
+    <div>
       <NavBar />
-      <div>
+    <div>
         <h3>CONTACT</h3>
         <p style={{ fontFamily: "Courier", fontWeight: "bold" }} >
           <Typewriter
@@ -64,22 +39,18 @@ export default function Contact() {
             deleteSpeed={50}
             delaySpeed={1000}
           />
-        </p>
-        <Grid container direction="row" justifyContent="center"
-          alignItems="center" rowSpacing={2} style={{ marginTop: "1vh" }}>
-          {links.map((link, i) => (
-            <div item>
-              <Link component="a" href={link.href} style={styles.link}><IconButton key={i} color="secondary" size="medium" style={styles.icon}>
-                <Icon icon={link.icon} />
-              </IconButton>
-              </Link>
-              <Typography>{link.name}</Typography>
-            </div>
-
-          ))}
-        </Grid>
-
+        </p>  
       </div>
-    </>
-  )
+      <div >
+        <form ref={form} onSubmit={sendEmail}>
+          <input type='text' name='name' placeholder='Your Full Name' required />
+          <input type='email' name='email' placeholder='Your Email' required />
+          <textarea name='message' rows="7" placeholder='Your Message' required />
+          <button type='submit' className='btn btn-primary'>Send Message</button>
+        </form>
+      </div>
+    </div>       
+  );
+      
 };
+export default Contact;
