@@ -26,8 +26,9 @@ code {
  }
  
 
-
-
+ .MuiBox-root {
+  justify-content: right;
+ }
 
 
 
