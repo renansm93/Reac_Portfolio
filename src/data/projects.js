@@ -2,6 +2,8 @@ import BloodTale from "../images/BloodTale_AMurderMystery_.png";
 import TechBlog from "../images/tech-blog.png";
 import noteTaker from "../images/noteTaker.png";
 import readmeGenerator from "../images/README.gif";
+import CarerHUb from "../images/logo.png";
+
 import employeeTracker from "../images/employeeTracker.png";
 import weatherDashboard from "../images/weatherDashboard.png";
 import codingQuiz from "../images/CodeQuiz.gif";
@@ -17,7 +19,7 @@ const projects = [
     {
         name: "Career Hub",
         description: `HTML, CSS, Javascript, MongoDB, Express, React`,
-        image: BloodTale,
+        image: CarerHUb,
         gitHub: "https://github.com/renansm93/CareerHub",
         deployed: ""
     },
