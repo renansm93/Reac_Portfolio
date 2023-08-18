@@ -54,11 +54,11 @@ export default function NavBar() {
             fontFamily: fontFamily,
             backgroundColor: "inherit",
             fontWeight: "bold",
-            fontSize: "3.5rem",
+            fontSize: "2.5rem",
             color: "wheat"
         },
         button: {
-            fontSize: "2.0rem",
+            fontSize: "1.7rem",
             fontWeight: "bold",
             fontFamily: fontFamily,
             color: "wheat",

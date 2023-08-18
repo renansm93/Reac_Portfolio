@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <div>
       <NavBar />
-    <div>
+      <div>
         <h3>CONTACT</h3>
         <p style={{ fontFamily: "Courier", fontWeight: "bold" }} >
           <Typewriter

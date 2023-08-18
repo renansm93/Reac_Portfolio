@@ -15,6 +15,14 @@ import portfolio from "../images/portfolio.png";
 const projects = [
 
     {
+        name: "Career Hub",
+        description: `HTML, CSS, Javascript, MongoDB, Express, React`,
+        image: BloodTale,
+        gitHub: "https://github.com/renansm93/CareerHub",
+        deployed: ""
+    },
+
+    {
         name: "BloodTale A MurderMystery",
         description: `HTML, CSS, Javascript, Bulma (CSS framework)`,
         image: BloodTale,
