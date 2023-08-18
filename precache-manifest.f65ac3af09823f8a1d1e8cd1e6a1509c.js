@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "6f819447fb543ccb9f80",
-    "url": "/React_Portfolio/static/css/main.29c32234.chunk.css"
+    "revision": "817d1a85d6ffef323849",
+    "url": "/React_Portfolio/static/css/main.e5ddd197.chunk.css"
   },
   {
-    "revision": "6f819447fb543ccb9f80",
-    "url": "/React_Portfolio/static/js/main.6f819447.chunk.js"
+    "revision": "817d1a85d6ffef323849",
+    "url": "/React_Portfolio/static/js/main.817d1a85.chunk.js"
   },
   {
-    "revision": "12b01b0e4f614f766dcc",
-    "url": "/React_Portfolio/static/js/1.12b01b0e.chunk.js"
+    "revision": "f23dcc1a2a408fa435fb",
+    "url": "/React_Portfolio/static/js/1.f23dcc1a.chunk.js"
   },
   {
     "revision": "0b3b1d1736f2c5113254",
     "url": "/React_Portfolio/static/js/runtime~main.0b3b1d17.js"
   },
   {
-    "revision": "7691c8d313f689ba4ae021ce6e676ad8",
-    "url": "/React_Portfolio/static/media/BloodTale_AMurderMystery_.7691c8d3.png"
-  },
-  {
     "revision": "7f90bfbafeb10b830604f2148477d432",
     "url": "/React_Portfolio/static/media/Renan-PhotoRoom.7f90bfba.png"
+  },
+  {
+    "revision": "7691c8d313f689ba4ae021ce6e676ad8",
+    "url": "/React_Portfolio/static/media/BloodTale_AMurderMystery_.7691c8d3.png"
   },
   {
     "revision": "e4715db34b342d3218ac9bf8905d498b",
@@ -34,6 +34,10 @@ self.__precacheManifest = [
   {
     "revision": "738f32bccb7d17c900c5b6b83fea9542",
     "url": "/React_Portfolio/static/media/README.738f32bc.gif"
+  },
+  {
+    "revision": "c9d94857a1dda1d794ed7a0814e35519",
+    "url": "/React_Portfolio/static/media/logo.c9d94857.png"
   },
   {
     "revision": "29f3c63cd5ed08be9d0e78750a9ebcde",
@@ -72,7 +76,7 @@ self.__precacheManifest = [
     "url": "/React_Portfolio/static/media/Resume.d3051438.pdf"
   },
   {
-    "revision": "b2264d015419541fc06135428d45dda8",
+    "revision": "6b9ea57db64d0ccf339ce0eb17424b92",
     "url": "/React_Portfolio/index.html"
   }
 ];
